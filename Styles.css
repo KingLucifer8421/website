@@ -1,0 +1,125 @@
+
+/* big box on left */
+.Box-Left {
+background-color: grey;
+width: 20%;
+height: 100%;
+border: 1px solid black;
+padding: 50px;
+margin: 20px;
+position: auto;
+left:0.5%;
+Color: Orange;
+Text-align: center;
+font-size: 36px;
+}
+.Middle{
+background-color: white;
+width: 30%;
+height: 100%;
+border: 2px solid black;
+padding: 50px;
+position: absolute;
+Color: Black;
+Text-align: center;
+font-size: 36px;
+right:25%;
+top:8%;
+margin-top:20px;
+
+}
+.MiddleTitle{
+border-bottom: 2px solid transparent;
+
+}
+.Box1{
+border:3px solid black;
+border-left:none;
+width: 50%;
+height: 100%;
+position:absolute;
+top:93px;
+right:50%;
+}
+.Box2{
+border:3px solid black;
+border-right:none;
+width: 50%;
+height:100%;
+position:relative;
+left:50%;
+top:0;
+Bottom:30px;
+
+}
+.Header{
+Background-color: black;
+Width: 100%;
+height: 50px;
+text-align: center;
+margin-left:0px;
+position:sticky;
+top:0;
+}
+.MyFace{
+border: 15px solid transparent;
+height: 180px;
+width: 180px;
+margin-left:auto;
+margin-right:auto;
+}
+.MyFace img{
+height: 180px;
+width: 180px;
+border: 5px solid  black;
+border-radius: 50%;
+margin-left:auto;
+margin-right:auto;
+}
+.margin{
+display: inline-block;
+vertical-align: auto;
+Color: white;
+font-size: 40px;
+
+}
+.NoteTitle{
+Color: black;
+Text-align: left;
+font-size: 20px;
+margin-top: 10px;
+}
+
+h1{
+  color: white;
+  text-align: top-left;
+  font-family: verdana;
+}   
+button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 3px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  
+  float: right;
+}
+body {
+  background-color: purple;
+  
+}
+
+p {
+  color: Black;
+  font-family: verdana;
+  font-size: 20px;
+  text-align: Center;
+}
+
+
+
+
+
