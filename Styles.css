@@ -14,7 +14,7 @@ top: 0;
 position: sticky;
 top: 8%;
 width:18%;
-float:left
+float:left;
 }
 .button{
   background-color: #4CAF50; /* Green */
