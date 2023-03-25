@@ -8,6 +8,7 @@ height: 70px;
 text-align: center;
 margin-left:18.3%;
 position:fixed;
+
 top: ;
 z-index:500;
 box-shadow: 0px 5px 10px 0px #84abbf;
@@ -19,21 +20,7 @@ width:18%;
 float:left;
 z-index:1000;
 }
-.button{
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 16px 3px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 4px;
-  float: right;
-}
-.button:hover{
-background-color:blue;
-color:white;
-}
+
 /* big box on left */ 
 .image-section {
     height: 100vh;
@@ -152,17 +139,39 @@ margin-top: 10px;
 
 
 .button{
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 16px 3px;
+  background-color:#84abbf; /* Green */
+  border-top: 3px solid  black;
+  border-bottom: 3px solid  black;
+  border-left: none;
+  border-right: none;
+  color: Black;
+  padding: 5px 5px;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 4px;
-  float: right;
+ 
   margin-left:0.2%;
-  margin-top:0.3%;
+  margin-top:1%;
+}
+.button1{
+  background-color:#84abbf; /* Green */
+  border: 3px solid black;
+  color: Black;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 25px;
+  margin-left:0.2%;
+  margin-top:1%;
+}
+.button:hover{
+background-color:#566eba;
+color:white;
+}
+.button1:hover{
+background-color:#566eba;
+color:white;
 }
 body {
   background-color:#606163;
