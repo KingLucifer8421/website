@@ -1,80 +1,128 @@
 
-/* big box on left */
-.Box-Left {
-background-color: grey;
-width: 20%;
+
+/* bar on top*/
+Header{
+Background-color: black;
+Width: 100%;
+height: 70px;
+text-align: center;
+margin-left:0px;
+position: sticky;
+top: 0;
+}
+.sticky{
+position: sticky;
+top: 8%;
+width:18%;
+float:left
+}
+.button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 3px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  float: right;
+}
+.button:hover{
+background-color:blue;
+color:white;
+}
+/* big box on left */ 
+.image-section {
+    height: 100vh;
+    -moz-text-align: center; /*works on Firefox */
+    -webkit-text-align: center; /*works on Safari and Google Chrome*/
+    text-align: center;
+    background-color: gray;
+    -moz-padding: 20px; /*works on Firefox */
+    -webkit-padding: 20px; /*works on Safari and Google Chrome*/
+    padding: 20px;
+  }
+.Box-Left{
+ background-color: grey;
+width: 100%;
 height: 100%;
 border: 1px solid black;
-padding: 50px;
-margin: 20px;
 position: auto;
-left:0.5%;
 Color: Orange;
 Text-align: center;
 font-size: 36px;
+	}
+.left{
+width=device-width
 }
+.icon-link {
+    text-decoration: none;
+    font-size: 48px auto;
+    padding: 26px;
+  }
+.text{
+Color:black;
+size:20;
+border:2px solid black;
+height:100%
+
+}
+
 .Middle{
 background-color: white;
-width: 30%;
+width: 82%;
 height: 100%;
 border: 2px solid black;
-padding: 50px;
-position: absolute;
 Color: Black;
 Text-align: center;
 font-size: 36px;
-right:25%;
-top:8%;
-margin-top:20px;
-
+position:static;
+float:right;
 }
+.Middle-Box{
+Height:100%;
+}
+
 .MiddleTitle{
 border-bottom: 2px solid transparent;
+color: green;
+font-size: 11xp;
 
 }
 .Box1{
-border:3px solid black;
-border-left:none;
-width: 50%;
-height: 100%;
-position:absolute;
-top:93px;
-right:50%;
+display:inline-block;
+border:1px solid black;
+height: auto;
+width: 45%;
+position:static;
+margin: 0 auto;
+padding:10px;
 }
-.Box2{
-border:3px solid black;
-border-right:none;
-width: 50%;
-height:100%;
-position:relative;
-left:50%;
-top:0;
-Bottom:30px;
-
-}
-.Header{
-Background-color: black;
-Width: 100%;
-height: 50px;
-text-align: center;
-margin-left:0px;
-position:sticky;
-top:0;
-}
-.MyFace{
-border: 15px solid transparent;
-height: 180px;
-width: 180px;
+.center{
 margin-left:auto;
 margin-right:auto;
 }
+.Box2{
+display:inline-block;
+border:1px solid black;
+height: auto;
+width: 45%;
+margin: 0 auto;
+padding:10px;
+
+}
+
+.MyFace{
+border-radius: 50%;
+height: 180px;
+width: 180px;
+	}
 .MyFace img{
 height: 180px;
 width: 180px;
 border: 5px solid  black;
-border-radius: 50%;
-margin-left:auto;
-margin-right:auto;
+border-radius: 33.3%;
+
 }
 .margin{
 display: inline-block;
@@ -91,9 +139,9 @@ margin-top: 10px;
 }
 
 h1{
-  color: white;
-  text-align: top-left;
-  font-family: verdana;
+  color: blue;
+  text-align: left;
+
 }   
 button{
   background-color: #4CAF50; /* Green */
@@ -104,19 +152,22 @@ button{
   display: inline-block;
   font-size: 16px;
   border-radius: 4px;
-  
+  margin-left:5px;
   float: right;
 }
 body {
-  background-color: purple;
-  
+  background-color:#f1f1f1;
+  padding: 0;
+  margin: 0;
+    
+    
 }
 
 p {
   color: Black;
   font-family: verdana;
   font-size: 20px;
-  text-align: Center;
+  text-align: Left;
 }
 
 
