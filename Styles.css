@@ -93,7 +93,7 @@ font-size: 11xp;
 display:inline-block;
 border:1px solid transparent black;
 height: 500px;
-width: 100%;
+width: 45%;
 position:static;
 padding: calc( 2.5vh + 24px) calc(19.5vw - 54.4px);
 background-color:#ebeff7;
