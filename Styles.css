@@ -65,6 +65,7 @@ text-align:left;
 background-color: #f1f1f1;
 width: 82%;
 height: 100%;
+margin:auto;
 border: 2px solid transparent black;
 Color: Black;
 Text-align: center;
@@ -94,7 +95,7 @@ background-color:#ebeff7;
 box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.5);
 border-radius: 5%;
 }
-.center{
+.Center{
 margin-left:auto;
 margin-right:auto;
 }
@@ -110,20 +111,12 @@ box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.5);
 border-radius: 5%;
 margin-bottom: 20px;
 }
-.Skill-L{
-display:inline-block;
-border:1px solid black;
-width: 45%;
-}
-.PBar{
-Width: 75%;
 
-}
-
-.Skill-R{
-border:1px solid black;
+.Skills{
+border:1px solid transparent black;
 display:inline-block;
 width: 45%;
+height: 20%;
 }
 .MyFace{
 border-radius: 50%;
@@ -213,8 +206,3 @@ p,h2{
   font-size: 20px;
   text-align: Left;
   }
-  
-
-
-
-
