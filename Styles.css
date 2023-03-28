@@ -8,8 +8,7 @@ height: 70px;
 text-align: center;
 margin-left:18.3%;
 position:fixed;
-
-top: ;
+top:0;
 z-index:500;
 box-shadow: 0px 5px 10px 0px #84abbf;
 }
@@ -35,7 +34,7 @@ z-index:1000;
 .Box-Left{
  background-color: gray;
 width: 100%;
-height: 100%;
+height: 850px;
 border: 1px solid transparent black;
 position: auto;
 Color: Orange;
@@ -70,7 +69,7 @@ border: 2px solid transparent black;
 Color: Black;
 Text-align: center;
 font-size: 36px;
-position:;
+position:relative;
 float:right;
 }
 .Middle-Box{
@@ -100,7 +99,7 @@ margin-left:auto;
 margin-right:auto;
 }
 .Box2{
-display:inline-block;
+
 border:1px solid transparent black;
 height: 700px;
 width: 45%;
@@ -109,9 +108,23 @@ padding:10px;
 background-color:#ebeff7;
 box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.5);
 border-radius: 5%;
-margin-bottom: 10px;
+margin-bottom: 20px;
+}
+.Skill-L{
+display:inline-block;
+border:1px solid black;
+width: 45%;
+}
+.PBar{
+Width: 75%;
+
 }
 
+.Skill-R{
+border:1px solid black;
+display:inline-block;
+width: 45%;
+}
 .MyFace{
 border-radius: 50%;
 height: 180px;
@@ -137,7 +150,14 @@ font-size: 20px;
 margin-top: 10px;
 }
 
+.Type{
+Display:inline-block;
+font-size:20px;
+}
+.contact-info{
 
+font-size:20px;
+}
 .button{
   background-color:#84abbf; /* Green */
   border-top: 3px solid  black;
