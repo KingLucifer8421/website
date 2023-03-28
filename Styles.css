@@ -1,9 +1,9 @@
 
-@media screen and(min-width: 1224px) {
-  .Middle .Box1 {
-    margin-top: -15vh;
-    margin-left: 80px;  
-} }
+@media screen and (max-width: 600px) {
+  .Box1 .Box2{
+    width: 100%;
+  }
+}
 /* bar on top*/
 Header{
 Background-color: #84abbf;
