@@ -1,5 +1,9 @@
 
-
+@media screen and(min-width: 1224px) {
+  .Middle .Box1 {
+    margin-top: -15vh;
+    margin-left: 80px;  
+} }
 /* bar on top*/
 Header{
 Background-color: #84abbf;
@@ -31,11 +35,6 @@ z-index:1000;
     -webkit-padding: 20px; /*works on Safari and Google Chrome*/
     padding: 20px;
   }
-@media only screen and (max-width:640px) {
-  .sqs-block-html {
-    margin: 10px;
-  }
-}
 .Box-Left{
  background-color: gray;
 width: 100%;
@@ -95,10 +94,12 @@ border:1px solid transparent black;
 height: 500px;
 width: 45%;
 position:static;
-padding: calc( 2.5vh + 24px) calc(19.5vw - 54.4px);
+margin: 0 auto;
+padding:10px;
 background-color:#ebeff7;
 box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.5);
 border-radius: 5%;
+text-align:center;
 }
 .Center{
 margin-left:auto;
@@ -109,7 +110,7 @@ border:1px solid transparent black;
 height: 700px;
 width: 45%;
 margin: 0 auto;
-padding: calc( 2.5vh + 24px) calc(19.5vw - 54.4px);
+padding:10px;
 background-color:#ebeff7;
 box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.5);
 border-radius: 5%;
@@ -195,7 +196,7 @@ body {
   background-color:#606163;
   padding: 0;
   margin: 0;
-    
+  max-width:device-width;
     
 }
 
@@ -211,3 +212,5 @@ p,h2{
   font-size: 20px;
   text-align: Left;
   }
+  
+   
