@@ -1,5 +1,5 @@
 
-@media only screen and (min-width:400px ) {
+@media only screen and (max-width:650px ) {
   Header{
     Background-color: #84abbf;
     Width: 100%;
@@ -54,7 +54,7 @@
   .Box2{
     display:inline-block;
     border:1px solid transparent black;
-    height: 500px;
+    height: auto;
     width: 100%;
     position:relative;
     margin:auto;
@@ -101,7 +101,7 @@
       color:white;
       }        
 }
-@media only screen and (min-width:1000px ) {
+@media only screen and (min-width:650px ) {
   
 /* bar on top*/
 Header{
